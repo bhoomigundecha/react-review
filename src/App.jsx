@@ -1,5 +1,5 @@
-import './App.css'
 import LikeButton from './LikeButton'
+import Card from './Card.jsx'
 import Lottery from './Lottery'
 import LudoBoard from './LudoBoard'
 import Product from './Product'
@@ -10,13 +10,15 @@ import CommentsForm from './CommentsForm'
 import Counter from './Counter.jsx'
 import Joker from './Joker.jsx'
 import SearchBox from './SearchBox.jsx'
+import './App.css'
 function App() {
   
-  return(
-   <div className='main'>
-    <SearchBox/>
-   </div>
-  )
+  return (
+    <>
+     <Card/>
+    </>
+  );
+
 }
 
 export default App

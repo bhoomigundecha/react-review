@@ -1,4 +1,8 @@
-#root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -61,4 +65,4 @@
   background-color: rgb(225, 227, 224);
     border-radius: 18px;
 
-}
+} */
